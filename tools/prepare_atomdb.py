@@ -8,7 +8,6 @@ import astropy.io.fits as fits
 # Therefore the reduction directory has to be put in manually.
 parser = ap.ArgumentParser()
 parser.add_argument('reduction_dir')
-parser.add_argument('snapshot')
 parser.add_argument('bands_file')
 args = parser.parse_args()
 
