@@ -66,7 +66,7 @@ def get_power_grid(elements, energy_min, energy_max):
     cie.set_eebrems(True)
 
 
-    result = calculate_power(cie, elements, temperatures)
+    result = _calculate_power(cie, elements, temperatures)
 
     # Save a 2D grid of Element, Temperature so that we can interpolate
     power_grid = np.zeros((len(elements), len(temperatures)))

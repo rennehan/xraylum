@@ -1,1 +1,1 @@
-from .emission import calculate
+from .emission import get_power_grid
